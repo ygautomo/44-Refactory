@@ -14,13 +14,20 @@
 #!/bin/bash
 
 # Create a variable my_variable and assign it with "Hello"
-my_variable="Hello"
+declare VAR_MYVARIABLE="Hello"
 
 # Create a variable my_name and assign it with String value of your name
-my_name="Y Gautomo"
+declare VAR_MYNAME="Y Gautomo"
 
 # Display the console with format: "{my_variable} {my_name}"
-echo $my_variable $my_name
+echo $VAR_MYVARIABLE $VAR_MYNAME
+
+# Delete the variable
+# https://ss64.com/bash/unset.html
+declare -p          # list all variables
+set -u
+unset VAR_MYVARIABLE
+unset VAR_MYNAME
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
