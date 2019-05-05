@@ -23,7 +23,7 @@ declare VAR_MYNAME="Y Gautomo"
 echo $VAR_MYVARIABLE $VAR_MYNAME
 
 # Delete the variable
-# https://ss64.com/bash/unset.html
+# https://ss64.com/bash/
 declare -p          # list all variables
 set -u
 unset VAR_MYVARIABLE
