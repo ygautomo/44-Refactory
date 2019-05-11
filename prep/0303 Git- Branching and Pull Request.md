@@ -17,7 +17,20 @@ git checkout -b os-explanation
 uname -a
 Linux python 4.4.0-145-generic #171-Ubuntu SMP Tue Mar 26 12:43:40 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 
-git 
+git add ..
+git commit -am 'Add File OS.md'
+git push --set-upstream origin os-explanation
+
+git status
+ls
+# there is file OS.md within directory
+
+git checkout master
+git status
+ls
+# no file OS.md within directory
+
+https://github.com/ygautomo/44-Refactory/pull/1
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
