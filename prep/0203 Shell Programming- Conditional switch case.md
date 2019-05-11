@@ -1,15 +1,15 @@
-# 0203 Shell Programming- Conditional switch case
+# 0203 Shell Programming- Conditional Switch Case
 ## Assignment
 ### Status: Final 20190501
 
 **Instruction**
 
- 1. Create a variable VEHICLE and assign it with one of these values: bus, bike, foot, car, or motorcycle
- 2. Create a conditional switch-case that reads VEHICLE value and print something with these following rules:
-  - If the value is foot, display "You have strong, healthy legs."
-  - If the value is bus or bike display "Hey, continue your good habits!"
-  - If the value is car or motorcycle display "Hmm, maybe you need to take public transportation occasionally."
-  - If the value is Other than the above values, display "Hmm, Looks like you want to go out of town."
+ 1. Create a variable `VEHICLE` and assign it with one of these values: `bus, bike, foot, car, or motorcycle`
+ 2. Create a conditional `switch-case` that reads `VEHICLE` value and print something with these following rules:
+   - If the value is `foot`, display *"You have strong, healthy legs."*
+   - If the value is `bus` or `bike` display *"Hey, continue your good habits!"*
+   - If the value is `car` or `motorcycle` display *"Hmm, maybe you need to take public transportation occasionally."*
+   - If the value is Other than the above values, display *"Hmm, Looks like you want to go out of town."*
 
 **Solution**
 ```bash

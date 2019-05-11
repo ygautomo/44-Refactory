@@ -4,22 +4,22 @@
 
 **Instruction**
 
- 1. Create a variable my_variable and assign it with "Hello"
- 2. Create a variable my_name and assign it with String value of your name
- 3. Display the console with format: "{my_variable} {my_name}"
+ 1. Create a variable `my_variable` and assign it with *"Hello"*
+ 2. Create a variable `my_name` and assign it with String value of your name
+ 3. Display the console with format: `"{my_variable} {my_name}"`
 
 **Solution**
 
 ```bash
 #!/bin/bash
 
-# Create a variable my_variable and assign it with "Hello"
+# Create a variable `my_variable` and assign it with *"Hello"*
 declare VAR_MYVARIABLE="Hello"
 
-# Create a variable my_name and assign it with String value of your name
+# Create a variable `my_name` and assign it with String value of your name
 declare VAR_MYNAME="Y Gautomo"
 
-# Display the console with format: "{my_variable} {my_name}"
+# Display the console with format: `"{my_variable} {my_name}"`
 echo $VAR_MYVARIABLE $VAR_MYNAME
 
 # Delete the variable
