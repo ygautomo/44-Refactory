@@ -4,12 +4,12 @@
 
 **Instruction**
 Explain in details of:
+
  1. What will cause a conflict when you are trying to do some merge on git-based project
  2. How to solve it in the right way
 
 **Solution**
 If person 1 modified or delete file A and make a commit while other person 2 make changes on same file A on his local repository and try to make a commit. Then this would cause a conflict.
-
 ```git
 git status
 git add .
