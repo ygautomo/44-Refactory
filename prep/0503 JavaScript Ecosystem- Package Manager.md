@@ -17,6 +17,7 @@
 
 **Solution**
 # package.json
+# https://github.com/ygautomo/44-Refactory/blob/master/prep/0503%20package.json
 ```json
 {
 	"name": "learning-js-ecosystem",

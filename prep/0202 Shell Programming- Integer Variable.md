@@ -17,7 +17,7 @@
 declare -i VAR_EAT=30000
 
 # Create a variable `person` and assign it with integer value `5`
-declate -i VAR_PERSON=5
+declare -i VAR_PERSON=5
 
 # Multiply `eat` with `person` and display it to console using `echo`
 let VAR_RESULT=$EAT*$PERSON

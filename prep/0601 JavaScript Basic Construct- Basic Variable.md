@@ -9,9 +9,11 @@
  3. Display it using `console.log`
 
 **Solution**
+```javascript
 var myVariable
 
 myVariable = "I am a Refactory student"
 console.log(myVariable)
+```
 
 > Written with [StackEdit](https://stackedit.io/).
