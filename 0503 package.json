@@ -1,0 +1,23 @@
+{
+	"name": "learning-js-ecosystem",
+	"version": "0.1.0",
+	"description": "0503 JavaScript Ecosystem- Package Manager Assignment",
+	"license": "MIT",
+	"homepage": "https://github.com/ygautomo/44-Refactory/tree/master/prep",
+	"bugs": {
+		"url": "https://github.com/ygautomo/44-Refactory/issues" 
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ygautomo/44-Refactory.git"
+	},
+	"dependencies": {
+		"express": "~4.16.4",
+		"express-validator": "~5.3.1",
+		"sequelize": "~5.8.6"
+	},
+	"devDependencies":{
+		"eslint": "5.16.0",
+		"mocha": "6.1.3"
+	}
+}
