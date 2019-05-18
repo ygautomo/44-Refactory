@@ -3,59 +3,52 @@
 ### Status: Final 20190501
 
 **Instruction**
-List at least **10** new features on JavaScript that is introduced on **EcmaScript 6** (*2015*)
+ 1. List at least **10** new features on JavaScript that is introduced on **EcmaScript 6** (*2015*)
 
 **Solution**
 10 new features on JavaScript ES6
 
-1 Block-scoped variables (and constants) with `let` keyword
-```javascript
+```JavaScript
+// 01. Block-scoped variables (and constants) with `let` keyword
 for (let i = 0; i < myArray.length; i++) {
   // Do something inside the block
 }
  
 if (x > 0 && x != y) {
   // We reuse "i"
-  let i = x * y
+  let i = x * y;
 }
-```
-2 New `const` keyword
-```javascript
-const PI = 3.141593
-PI > 3.0
-```
-3 Arrow functions
-```javascript
-odds  = evens.map(v => v + 1)
-pairs = evens.map(v => ({ even: v, odd: v + 1 }))
-nums  = evens.map((v, i) => v + i)
-```
- 4 New `spread` Operator
-```javascript
+
+// 02. New `const` keyword
+const PI = 3.141593;
+PI > 3.0;
+
+// 03. Arrow functions
+odds  = evens.map(v => v + 1);
+pairs = evens.map(v => ({ even: v, odd: v + 1 }));
+nums  = evens.map((v, i) => v + i);
+
+// 04. New `spread` Operator
 let myArray = [1, 2, 3];
- 
 let newArray = [...myArray, 4, 5, 6];
  
-console.log(newArray);
-// 1, 2, 3, 4, 5, 6
+console.log(newArray);    // return 1, 2, 3, 4, 5, 6
 }
-```
-5 Default Values for Parameters & New Rest Parameters
-```javascript
+
+// 05. Default Values for Parameters & New Rest Parameters
 // Default Values for Parameters
 function f (x, y = 7, z = 42) {
-    return x + y + z
+    return x + y + z;
 }
 
 // Rest Parameters
 function f (x, y, ...a) {
-    return (x + y) * a.length
+    return (x + y) * a.length;
 }
-f(1, 2, "hello", true, 7) === 9
-f(1) === 50
-```
-6 New `for...of` Statement
-```javascript
+f(1, 2, "hello", true, 7) === 9;
+f(1) === 50;
+
+// 06. New `for...of` Statement
 let myArray = [1, 2, 3, 4, 5];
 let sum = 0;
  
@@ -63,21 +56,17 @@ for (let i of myArray) {
   sum += i;
 }
  
-console.log(sum);
-// 15 (= 1 + 2 + 3 + 4 + 5) 
-```
-7 Template Literals
-```javascript
+console.log(sum);       // return 15 (= 1 + 2 + 3 + 4 + 5) 
+
+// 07. Template Literals
 let customer = { title: 'Ms', firstname: 'Jane', surname: 'Doe', age: '34' };
- 
+
 let template = `Dear ${customer.title} ${customer.firstname} ${customer.surname}! 
 Happy ${customer.age}th birthday!`;
  
-console.log(template);
-// Dear Ms Jane Doe! Happy 34th birthday!
-```
-8 Classes
-```javascript
+console.log(template);  // return "Dear Ms Jane Doe! Happy 34th birthday!"
+
+// 08. Classes
 class Polygon {
   constructor(height, width) { //class constructor
     this.name = 'Polygon';
@@ -92,11 +81,9 @@ class Polygon {
  
 let myPolygon = new Polygon(5, 6);
  
-console.log(myPolygon.sayName());
-// Hi, I am a Polygon.
-```
-9 Modules
-```javascript
+console.log(myPolygon.sayName());   // return "Hi, I am a Polygon."
+
+// 09. Modules
 // functions.js
  
   function cube(a) {
@@ -107,21 +94,16 @@ console.log(myPolygon.sayName());
     return Math.cbrt(a);
   }
  
-  export { cube, cubeRoot}
+  export { cube, cubeRoot };
   // or: export { cube as cb, cubeRoot as cr }
  
 // app.js
- 
   import { cube, cubeRoot } from 'functions';
  
-  console.log(cube(4));
-  // 64
- 
-  console.log(cubeRoot(125));
-  // 5
-```
-10 Loads of New Methods
-```javascript
+  console.log(cube(4));         // return 64
+  console.log(cubeRoot(125));   // return 5
+
+// 10. Loads of New Methods
 function isPrime(element, index, array) {
   var start = 2;
   while (start <= Math.sqrt(element)) {
@@ -132,11 +114,8 @@ function isPrime(element, index, array) {
   return element > 1;
 }
  
-console.log([4, 6, 8, 12].find(isPrime)); 
-// undefined, not found
- 
-console.log([4, 5, 8, 12].find(isPrime)); 
-// 5
+console.log([4, 6, 8, 12].find(isPrime));   // return undefined, not found
+console.log([4, 5, 8, 12].find(isPrime));   // return 5
 ```
 
 Reference

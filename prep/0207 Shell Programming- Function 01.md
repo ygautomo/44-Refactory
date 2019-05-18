@@ -7,7 +7,7 @@
  1. Make a function called `system` that returns the value of the system information and the logged-in user
 
 **Solution**
-```bash
+```Shell
 #!/bin/bash
 
 # Make a function called `system` that returns the value of the system information and the logged-in user

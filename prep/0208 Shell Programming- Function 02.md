@@ -8,7 +8,7 @@
  2. Call the function inside the script
 
 **Solution**
-```bash
+```Shell
 #!/bin/bash
 
 # Create a function called `zbf` that has functionality to find all empty files (zero byte file) in a directory (where the script is executed) and its subdirectory

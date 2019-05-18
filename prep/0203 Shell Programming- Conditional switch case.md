@@ -12,7 +12,7 @@
    - If the value is Other than the above values, display *"Hmm, Looks like you want to go out of town."*
 
 **Solution**
-```bash
+```Shell
 #!/bin/bash
 
 # Create a variable VEHICLE and assign it with one of these values: bus, bike, foot, car, or motorcycle

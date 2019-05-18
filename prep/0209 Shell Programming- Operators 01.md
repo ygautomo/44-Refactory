@@ -10,7 +10,7 @@
  4. Others print *"Please try again and enter a number."*
 
 **Solution**
-```bash
+```Shell
 #!/bin/bash
 
 # Create a variable `age`, that reads user's input

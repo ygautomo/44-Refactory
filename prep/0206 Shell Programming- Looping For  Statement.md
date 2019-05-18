@@ -1,4 +1,4 @@
-# 0206 Shell Programming- Looping For  Statement
+# 0206 Shell Programming- Looping For Statement
 ## Assignment
 ### Status: Final 20190501
 
@@ -7,7 +7,7 @@
  1. Create a loop using `for` statement that do 10 loops and display *"n hoolahoop"* on each loop with `n` is order of the loop
 
 **Solution**
-```bash
+```Shell
 #!/bin/bash
 
 # Create a loop using `for` statement that do 10 loops and display *"n hoolahoop"* on each loop with `n` is order of the loop

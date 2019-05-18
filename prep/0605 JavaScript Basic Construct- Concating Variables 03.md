@@ -8,19 +8,20 @@
  3. Using `console.log`, print all variables in a sentence.
 
 For example:
-```javascript
+```JavaScript
 console.log('I will be a {{jobTitle}} in {{geoLocation}} by {{workYear}}');
 ```
 
 **Solution**
-```javascript
+```JavaScript
 var geoLocation, jobTitle, workYear
 
 geoLocation= "Indonesia"
 jobTitle= "full stack developer"
 workYear= 2018
-// console.log("I will be a", jobTitle, "in", geoLocation, "by", workYear)
-// console.log("I will be a "+jobTitle+" in "+geoLocation+ " by "+workYear)
+console.log(`I will be a ${jobTitle} in ${geoLocation} by ${workYear}`);
+console.log("I will be a", jobTitle, "in", geoLocation, "by", workYear)
+console.log("I will be a "+jobTitle+" in "+geoLocation+" by "+workYear)
 console.log("I will be a ".concat(jobTitle, " in ", geoLocation, " by ", workYear))
 ```
 

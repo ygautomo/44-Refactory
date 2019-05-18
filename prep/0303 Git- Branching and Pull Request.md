@@ -11,13 +11,13 @@
  5. Put the link of the **Pull Request** from [Github ygautomo](https://github.com/ygautomo/44-Refactory) on the provided answer column
 
 **Solution**
-```git
+```Git Config
 git checkout -b os-explanation
 
 uname -a
-Linux python 4.4.0-145-generic #171-Ubuntu SMP Tue Mar 26 12:43:40 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+> Linux python 4.4.0-145-generic #171-Ubuntu SMP Tue Mar 26 12:43:40 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 
-git add ..
+git add .
 git commit -am 'Add File OS.md'
 git push --set-upstream origin os-explanation
 

@@ -1,4 +1,4 @@
-# 0304 Git- Manage Conflict
+# 0305 Git- Manage Conflict
 ## Assignment
 ### Status: Final 20190501
 
@@ -10,7 +10,7 @@ Explain in details of:
 
 **Solution**
 If person 1 modified or delete file A and make a commit while other person 2 make changes on same file A on his local repository and try to make a commit. Then this would cause a conflict.
-```git
+```Git Config
 git status
 git add .
 git commit -am 'Update Files'

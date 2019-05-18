@@ -16,9 +16,9 @@
  5. Put the link of your app repository on the provided answer column
 
 **Solution**
-# package.json
-# https://github.com/ygautomo/44-Refactory/blob/master/prep/0503%20package.json
-```json
+package.json
+https://github.com/ygautomo/44-Refactory/blob/master/prep/0503%20package.json
+```JSON
 {
 	"name": "learning-js-ecosystem",
 	"version": "0.1.0",

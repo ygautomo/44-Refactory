@@ -7,7 +7,7 @@
  1. Create a **do-while** statement that loops **5 times** and display *"Hello, for `n` times"* on each loop, with `n` is loop order
 
 **Solution**
-```bash
+```Shell
 #!/bin/bash
 
 # Create a **do-while** statement that loops **5 times** and display *"Hello, for `n` times"* on each loop, with `n` is loop order

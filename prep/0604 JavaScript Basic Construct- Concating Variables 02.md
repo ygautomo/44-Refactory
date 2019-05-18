@@ -11,13 +11,15 @@
 
 **Solution**
 ```javascript
-var birthYear, currentYear, age
+var birthYear, currentYear, age;
 
-birthYear= 1974
-currentYear = 2019
-age = currentYear - birthYear
-// console.log("I am", age, "years old")
-console.log("I am ".concat(age, " years old"))
+birthYear = 1974;
+currentYear = 2019;
+age = currentYear - birthYear;
+console.log(`I am ${age} years old`);
+console.log("I am", age, "years old");
+console.log("I am "+age+" years old");
+console.log("I am ".concat(age, " years old"));
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

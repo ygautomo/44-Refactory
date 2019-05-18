@@ -10,7 +10,7 @@
 
 **Solution**
 
-```bash
+```Shell
 #!/bin/bash
 
 # Create a variable `my_variable` and assign it with *"Hello"*

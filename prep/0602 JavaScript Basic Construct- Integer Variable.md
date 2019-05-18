@@ -8,12 +8,13 @@
  3. Calculate the value of `home` divided by `away` and display it using `console.log`
 
 **Solution**
-```javascript
-var home, away
+```JavaScript
+var home, away;
 
-home = 50
-away = 10
-console.log(home/away)
+home = 50;
+away = 10;
+console.log(`${home/away}`);
+console.log(home/away);
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

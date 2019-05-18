@@ -3,7 +3,7 @@
 ### Status: Final 20190501
 
 **Instruction**
-Give us your opinion, *Why we should use JavaScript as programming language to build mobile, front end, and back end application*?
+ 1. Give us your opinion, *Why we should use JavaScript as programming language to build mobile, front end, and back end application*?
 
 **Solution**
 JavaScript is a client-side programming language which helps web developer to do Web Application Development and make dynamic and interactive web pages by implementing custom client-side scripts. Developers can also use cross-platform runtime engines like Node.js to write server-side code in JavaScript. Developers can also create web pages which works well across various browsers, platforms, and devices by combining JavaScript, HTML5, and CSS3.

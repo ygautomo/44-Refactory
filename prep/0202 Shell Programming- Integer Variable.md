@@ -10,7 +10,7 @@
 
 **Solution**
 
-```bash
+```Shell
 #!/bin/bash
 
 # Create a variable `eat` and assign it with integer value `30000`

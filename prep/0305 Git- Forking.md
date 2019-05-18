@@ -1,4 +1,4 @@
-# 0303 Git- Forking
+# 0304 Git- Forking
 ## Assignment
 ### Status: Final 20190501
 
@@ -8,7 +8,7 @@
  2. Put the link of the forked repository on the provided answer column
 
 **Solution**
-```git
+```Git Config
 # forked from https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia
 https://github.com/ygautomo/Wilayah-Administratif-Indonesia
 ```

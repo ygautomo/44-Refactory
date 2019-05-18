@@ -10,6 +10,26 @@
  4. Put its *commit hash* on the provided answer column
 
 **Solution**
+```Git Config
+cd /path/to/my/codebase
+git clone https://github.com/ygautomo/44-Refactory.git
+```
+
+```Shell
+vim
+[ins]
+
+# 0302 Git- README.md
+## Assignment
+### Status: Final 20190501
+
+Name 	: Yugo Gautomo
+Email	: y_gautomo@yahoo.com
+Hobby	: Travelling
+
+[esc]:wq
+```
+
 Commit Hash
 aa997f81bf37804bd4f098b96049f6ec091db5c0
 

@@ -10,8 +10,10 @@
 Hint: You should use `const` value to create a constant variable
 
 **Solution**
-```javascript
+```JavaScript
 const pi = 3.14
+
+console.log(`${pi}`)
 console.log(pi)
 ```
 

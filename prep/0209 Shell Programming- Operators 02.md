@@ -5,11 +5,11 @@
 **Instruction**
 
  1. Create a script that reads for user's input, and process it with following rules:
- - When input is the equivalent to `programmer`, then print *"You can pass this path."*
- - Otherwise, print *"Please try another way."*
+   - When input is the equivalent to `programmer`, then print *"You can pass this path."*
+   - Otherwise, print *"Please try another way."*
 
 **Solution**
-```bash
+```Shell
 #!/bin/bash
 
 # Create a script that reads for user's input, and process it with following rules

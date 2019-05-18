@@ -10,7 +10,7 @@
    - If input value **less than** `10` display *"The number is less than 10"*
 
 **Solution**
-```bash
+```Shell
 #!/bin/bash
 
 # Create a script that reads user's input and process it with following rules

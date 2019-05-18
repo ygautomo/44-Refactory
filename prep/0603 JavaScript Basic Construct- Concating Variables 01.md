@@ -8,12 +8,13 @@
  3. Concat it, separated with comma, and display it to console using `console.log`
 
 **Solution**
-```javascript
-var cityName, countryName
+```JavaScript
+var cityName, countryName;
 
-cityName = "Yogyakarta"
-countryName = "Indonesia"
-console.log(cityName.concat(", ",countryName))
+cityName = "Yogyakarta";
+countryName = "Indonesia";
+console.log(`${cityName}, ${countryName}`);
+console.log(cityName.concat(", ",countryName));
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
