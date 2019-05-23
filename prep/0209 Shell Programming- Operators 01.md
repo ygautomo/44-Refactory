@@ -22,15 +22,15 @@ if [ "$VAR_AGE" -eq "$VAR_AGE" ] 2>/dev/null ;
 	then if [ "$VAR_AGE" -ge 17 ] ;
 		then echo 'You can watch movie'
 		elif [ "$VAR_AGE" -lt 17 ] && [ "$VAR_AGE" -gt 1 ] ;
-		then echo 'You are not old enough.'
-		else echo 'Please try again and enter a number.'		 
+			then echo 'You are not old enough.'
+			else echo 'Please try again and enter a number.'		 
 		fi
 	else echo 'Please try again and enter a number.'
 fi
 
 # Reference
 # https://ss64.com/bash/
-declare -p          # list all variables
+declare -p  	# list all variables
 set -u
 unset VAR_AGE
 ```

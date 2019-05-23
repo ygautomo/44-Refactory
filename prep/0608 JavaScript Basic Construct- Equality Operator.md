@@ -9,11 +9,11 @@
 
 **Solution**
 ```JavaScript
-var right = "refactory", left = "dark";
+let right = "refactory", left = "dark";
 
 function equal(strVar) {
-    return strVar=="refactory";
-}
+	return strVar=="refactory";
+};
 
 console.log(`${equal("dark")}`);
 console.log(equal("dark"));

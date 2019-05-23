@@ -8,27 +8,27 @@
 
 **Solution**
 ```JavaScript
-var myValue = 7;
+let myValue = 7;
 
 switch(myValue) {
 	case 6:
 		console.log("six");
-	    break;
+		break;
 	case 7:
-	    console.log("seven");
-	    break;
+		console.log("seven");
+		break;
 	case 8:
-	    console.log("eight");
-	    break;
+		console.log("eight");
+		break;
 	case 9:
 		console.log("nine");
 		break;
 	case 10:
 		console.log("ten");
 		break;
-	default:    
-	    console.log("wrong number");
-}
+	default:
+		console.log("wrong number");
+};
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

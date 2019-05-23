@@ -9,7 +9,7 @@
  4. Using **For** looping statement, go through from `start` until `end` and identify whether the number is odd or even, and then display it like example result below:
 
 **Expected result:**
-```
+```JavaScript
 1 = Odd number
 2 = Even number
 ...
@@ -19,12 +19,12 @@
 
 **Solution**
 ```JavaScript
-var start = 1, end = 30;
+const start = 1, end = 30;
 
 for (i = start; i <= end; i++) {
 	console.log(`${i} =  ${i % 2 === 0 ? "Even number" : "Odd number"}`);
-	// console.log(i);
-}
+	console.log(i);
+};
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

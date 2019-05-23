@@ -1,0 +1,9 @@
+[
+	{ "id": 1, "name": "Jambu", "qty": 52 },
+	{ "id": 2, "name": "Apel", "qty": 64 },
+	{ "id": 3, "name": "Kursi", "qty": 12 },
+	{ "id": 4, "name": "Sapu", "qty": 83 },
+	{ "id": 5, "name": "Jeruk", "qty": 90 },
+	{ "id": 6, "name": "Baju", "qty": 72 },
+	{ "id": 7, "name": "Topi", "qty": 110 }
+]

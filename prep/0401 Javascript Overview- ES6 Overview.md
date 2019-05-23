@@ -11,40 +11,40 @@
 ```JavaScript
 // 01. Block-scoped variables (and constants) with `let` keyword
 for (let i = 0; i < myArray.length; i++) {
-  // Do something inside the block
-}
+	// Do something inside the block
+};
  
 if (x > 0 && x != y) {
-  // We reuse "i"
-  let i = x * y;
-}
+	// We reuse "i"
+	let i = x * y;
+};
 
 // 02. New `const` keyword
 const PI = 3.141593;
 PI > 3.0;
 
 // 03. Arrow functions
-odds  = evens.map(v => v + 1);
-pairs = evens.map(v => ({ even: v, odd: v + 1 }));
-nums  = evens.map((v, i) => v + i);
+let odds  = evens.map(v => v + 1);
+let pairs = evens.map(v => ({ even: v, odd: v + 1 }));
+let nums  = evens.map((v, i) => v + i);
 
 // 04. New `spread` Operator
 let myArray = [1, 2, 3];
 let newArray = [...myArray, 4, 5, 6];
  
-console.log(newArray);    // return 1, 2, 3, 4, 5, 6
+console.log(newArray);		// return 1, 2, 3, 4, 5, 6
 }
 
 // 05. Default Values for Parameters & New Rest Parameters
 // Default Values for Parameters
 function f (x, y = 7, z = 42) {
-    return x + y + z;
-}
+	return x + y + z;
+};
 
 // Rest Parameters
 function f (x, y, ...a) {
-    return (x + y) * a.length;
-}
+	return (x + y) * a.length;
+};
 f(1, 2, "hello", true, 7) === 9;
 f(1) === 50;
 
@@ -53,10 +53,10 @@ let myArray = [1, 2, 3, 4, 5];
 let sum = 0;
  
 for (let i of myArray) {
-  sum += i;
-}
+	sum += i;
+};
  
-console.log(sum);       // return 15 (= 1 + 2 + 3 + 4 + 5) 
+console.log(sum);		// return 15 (= 1 + 2 + 3 + 4 + 5) 
 
 // 07. Template Literals
 let customer = { title: 'Ms', firstname: 'Jane', surname: 'Doe', age: '34' };
@@ -64,20 +64,20 @@ let customer = { title: 'Ms', firstname: 'Jane', surname: 'Doe', age: '34' };
 let template = `Dear ${customer.title} ${customer.firstname} ${customer.surname}! 
 Happy ${customer.age}th birthday!`;
  
-console.log(template);  // return "Dear Ms Jane Doe! Happy 34th birthday!"
+console.log(template); 	// return "Dear Ms Jane Doe! Happy 34th birthday!"
 
 // 08. Classes
 class Polygon {
-  constructor(height, width) { //class constructor
-    this.name = 'Polygon';
-    this.height = height;
-    this.width = width;
-  }
+	constructor(height, width) { //class constructor
+		this.name = 'Polygon';
+		this.height = height;
+		this.width = width;
+	};
  
-  sayName() { //class method
-    console.log('Hi, I am a', this.name + '.');
-  }
-}
+	sayName() { //class method
+		console.log('Hi, I am a', this.name + '.');
+	};
+};
  
 let myPolygon = new Polygon(5, 6);
  
@@ -85,37 +85,36 @@ console.log(myPolygon.sayName());   // return "Hi, I am a Polygon."
 
 // 09. Modules
 // functions.js
+function cube(a) {
+	return a * a * a;
+	};
  
-  function cube(a) {
-    return a * a * a;
-  }
- 
-  function cubeRoot(a) {
-    return Math.cbrt(a);
-  }
- 
-  export { cube, cubeRoot };
-  // or: export { cube as cb, cubeRoot as cr }
- 
+function cubeRoot(a) {
+	return Math.cbrt(a);
+};
+
+export { cube, cubeRoot };
+// or: export { cube as cb, cubeRoot as cr }
+
 // app.js
-  import { cube, cubeRoot } from 'functions';
+import { cube, cubeRoot } from 'functions';
  
-  console.log(cube(4));         // return 64
-  console.log(cubeRoot(125));   // return 5
+console.log(cube(4));			// return 64
+console.log(cubeRoot(125));		// return 5
 
 // 10. Loads of New Methods
 function isPrime(element, index, array) {
-  var start = 2;
-  while (start <= Math.sqrt(element)) {
-    if (element % start++ < 1) {
-      return false;
-    }
-  }
-  return element > 1;
-}
+	var start = 2;
+	while (start <= Math.sqrt(element)) {
+		if (element % start++ < 1) {
+			return false;
+		};
+	};
+	return element > 1;
+};
  
-console.log([4, 6, 8, 12].find(isPrime));   // return undefined, not found
-console.log([4, 5, 8, 12].find(isPrime));   // return 5
+console.log([4, 6, 8, 12].find(isPrime));	// return undefined, not found
+console.log([4, 5, 8, 12].find(isPrime));	// return 5
 ```
 
 Reference

@@ -8,10 +8,10 @@
 
 **Solution**
 ```JavaScript
-var myScore = 89;
+let myScore = 89;
 
 function greaterThan(myScore) {
-	var strReturn = "";
+	let strReturn = "";
 
 	if (myScore >= 100) {
 		strReturn = "100 or over";
@@ -19,9 +19,9 @@ function greaterThan(myScore) {
 		strReturn = "50 or over";
 	} else {
 		strReturn = "under 49";
-	}
-    return strReturn;
-}
+	};
+	return strReturn;
+};
  
 console.log(`${greaterThan(myScore)}`);
 console.log(greaterThan(myScore));

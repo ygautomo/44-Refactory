@@ -10,13 +10,13 @@
 
 **Solution**
 ```JavaScript
-var myAge = 20;
+let myAge = 20;
 
 if (myAge >= 17) {
 	console.log("Old enough");
 } else {
 	console.log("Too young");
-}
+};
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

@@ -14,15 +14,15 @@ console.log('I will be a {{jobTitle}} in {{geoLocation}} by {{workYear}}');
 
 **Solution**
 ```JavaScript
-var geoLocation, jobTitle, workYear
+var geoLocation, jobTitle, workYear;
 
-geoLocation= "Indonesia"
-jobTitle= "full stack developer"
-workYear= 2018
+geoLocation= "Indonesia";
+jobTitle= "full stack developer";
+workYear= 2018;
 console.log(`I will be a ${jobTitle} in ${geoLocation} by ${workYear}`);
-console.log("I will be a", jobTitle, "in", geoLocation, "by", workYear)
-console.log("I will be a "+jobTitle+" in "+geoLocation+" by "+workYear)
-console.log("I will be a ".concat(jobTitle, " in ", geoLocation, " by ", workYear))
+console.log("I will be a", jobTitle, "in", geoLocation, "by", workYear);
+console.log("I will be a "+jobTitle+" in "+geoLocation+" by "+workYear);
+console.log("I will be a ".concat(jobTitle, " in ", geoLocation, " by ", workYear));
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

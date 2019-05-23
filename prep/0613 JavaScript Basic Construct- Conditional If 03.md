@@ -15,7 +15,7 @@ and print it with format `"I got {grade}"`
 
 **Solution**
 ```JavaScript
-var score;
+let score;
 
 function myGrade(score) {
 	let strGrade = "";
@@ -29,15 +29,15 @@ function myGrade(score) {
 	} else if (score > 65) {
 		strGrade = "D";
 	} else {
-		strGrade = "E"
-	}
+		strGrade = "E";
+	};
 	return strGrade;
-}
+};
  
-console.log(`I got ${myGrade(99)} grade`); // return "A"
-console.log(`I got ${myGrade(80)} grade`); // return "A"
-console.log('I got ' + myGrade(99) + ' grade'); // return "A"
-console.log('I got ' + myGrade(80) + ' grade'); // return "C"
+console.log(`I got ${myGrade(99)} grade`); 		// return "A"
+console.log(`I got ${myGrade(80)} grade`); 		// return "A"
+console.log("I got " + myGrade(99) + " grade"); // return "A"
+console.log("I got " + myGrade(80) + " grade"); // return "C"
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

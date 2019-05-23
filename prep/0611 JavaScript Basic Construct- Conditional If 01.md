@@ -9,7 +9,7 @@
 ```JavaScript
 function smallerNum(varInt01, varInt02) {
 	return (varInt01 <= varInt02 ? varInt01 : varInt02);
-}
+};
  
 console.log(`${smallerNum(12, 2)}`);
 console.log(smallerNum(12, 2));

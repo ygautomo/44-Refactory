@@ -11,10 +11,10 @@ Hint: You should use `const` value to create a constant variable
 
 **Solution**
 ```JavaScript
-const pi = 3.14
+const pi = 3.14;
 
-console.log(`${pi}`)
-console.log(pi)
+console.log(`${pi}`);
+console.log(pi);
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

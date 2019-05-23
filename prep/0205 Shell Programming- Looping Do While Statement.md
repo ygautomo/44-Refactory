@@ -15,14 +15,14 @@ declare -i VAR_LOOP=1
 
 while [ $VAR_LOOP -le 5 ]
 do
-    echo "Hello for $VAR_LOOP times"
-    VAR_LOOP=`expr $VAR_LOOP+1`
-    # let VAR_LOOP=$VAR_LOOP+1
+	echo "Hello for $VAR_LOOP times"
+	VAR_LOOP=`expr $VAR_LOOP+1`
+	# let VAR_LOOP=$VAR_LOOP+1
 done
 
 # Delete the variable
 # https://ss64.com/bash/
-declare -p          # list all variables
+declare -p  	# list all variables
 set -u
 unset VAR_LOOP
 ```

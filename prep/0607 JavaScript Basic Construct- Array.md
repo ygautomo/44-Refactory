@@ -11,17 +11,17 @@
 var myArray = [1, 'n', 'n', 'n', 5, 3, 2, 'n', 2, 7, 8, 3];
 // var myArray = [1, 2, 5, 7, 5, 3, 2, 2, 2, 7, 8, 3];
 
-var arrFreqItem = myArray.reduce(function(obj, item) {
+let arrFreqItem = myArray.reduce(function(obj, item) {
 	obj[item] = (obj[item] + 1) || 1;
 	return obj;
 }, []);
 
-var arrFreqItemValues = Object.values(arrFreqItem);
-var i = arrFreqItemValues.findIndex(function(element) {
+let arrFreqItemValues = Object.values(arrFreqItem);
+let i = arrFreqItemValues.findIndex(function(element) {
 	return element === Math.max(...arrFreqItemValues);
 });
 
-// var arrMax = myArray.filter( c => Math.max(c.length) );
+// let arrMax = myArray.filter( c => Math.max(c.length) );
 
 console.log(`${Object.keys(arrFreqItem)[i]} appears ${arrFreqItemValues[i]} times`); 
 console.log(Object.keys(arrFreqItem)[i], "appears", arrFreqItemValues[i], "times");

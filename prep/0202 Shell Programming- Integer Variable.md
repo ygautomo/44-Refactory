@@ -25,7 +25,7 @@ echo $VAR_RESULT
 
 # Delete the variable
 # https://ss64.com/bash/
-declare -p          # list all variables
+declare -p  	# list all variables
 set -u
 unset VAR_EAT
 unset VAR_PERSON

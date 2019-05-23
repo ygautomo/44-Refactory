@@ -19,16 +19,16 @@ git status
 > # On branch os-explanation
 > # Your branch and 'origin/os-explanation' have diverged.
 > # and have 1 and 2 different commit each, respectively
-> #   <use "git pull" to merge the remote branch into yours>
+> # 	<use "git pull" to merge the remote branch into yours>
 > #
 > # You have unmerged paths.
-> #   (fix conflicts and run "git commit")
-> #   (use "git merge --abort" to abort the merge)
+> #		(fix conflicts and run "git commit")
+> #		(use "git merge --abort" to abort the merge)
 > #
 > # Unmerged paths:
-> #   (use "git add ..." to mark resolution)
+> #		(use "git add ..." to mark resolution)
 > #
-> # both modified:      0302 Git -  README.md
+> # both modified:	0302 Git -  README.md
 > #
 > no changes added to commit (use "git add" and/or "git commit -a")
 

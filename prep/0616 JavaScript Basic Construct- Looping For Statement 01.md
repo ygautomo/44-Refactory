@@ -9,7 +9,7 @@
  4. Using **For** statement, display a series of number starting from `start` value to `end` value with increment 1
 
 **Expected result:**
-```
+```JavaScript
 10
 11
 12
@@ -28,9 +28,9 @@
 const start = 10, end = 20;
 
 for (i = start; i <= end; i++) {
-	// console.log(`${i}`)
-	console.log(i)	
-}
+	console.log(`${i}`);
+	console.log(i);
+};
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

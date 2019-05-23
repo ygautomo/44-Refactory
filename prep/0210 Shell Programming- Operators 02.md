@@ -1,4 +1,4 @@
-# 0209 Shell Programming- Operators 02
+# 0210 Shell Programming- Operators 02
 ## Assignment
 ### Status: Final 20190501
 
@@ -27,7 +27,7 @@ fi
 
 # Reference
 # https://ss64.com/bash/
-declare -p          # list all variables
+declare -p  	# list all variables
 set -u
 unset VAR_STRING
 ```
