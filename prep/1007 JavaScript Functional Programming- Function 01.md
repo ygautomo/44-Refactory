@@ -9,13 +9,13 @@ The following number is the input for the array: `12, 11, 10, 9, 8, 7`
 
 **Solution**
 ```JavaScript
-// cosnt array_sum = function (my_array) {
+// const array_sum = function (my_array) {
 // let array_sum = function (my_array) {
 function array_sum(my_array) {
 	return	my_array.reduce( function(accumulator, currentValue) {
 		return accumulator + currentValue;
 	}, 0);
-};
+}
 
 console.log(array_sum([12, 11, 10, 9, 8, 7]));
 ```

@@ -13,7 +13,7 @@ function wait (seconds){
 			resolve("Welcome to refactory bootcamp..");
 		}, seconds);
 	});
-};
+}
 
 wait(2000)
 .then(message => {console.log(message)});

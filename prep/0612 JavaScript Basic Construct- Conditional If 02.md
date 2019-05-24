@@ -23,9 +23,9 @@ function goodMorning(myLanguage) {
 		strReturn = "Buongiorno";
 	} else {
 		strReturn = "Good Morning";
-	};
+	}
 	return strReturn;
-};
+}
  
 console.log(`${goodMorning('en')}`); // return "Good Morning"
 console.log(`${goodMorning('de')}`); // return "Guten Morgen"

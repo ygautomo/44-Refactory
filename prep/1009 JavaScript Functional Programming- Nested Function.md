@@ -17,15 +17,15 @@ function forEach(array, action) {
 		arrTemp.push(action(el));
 	});
 	return(arrTemp);
-};
+}
 
 function makeUpperCase(word) {
 	return(word.toUpperCase());
-};
+}
 
 function greetAll(word, greetFullnames) {
 	return("Hello "+word);
-};
+}
 
 forEach(["budi", "dewi", "santoso"], makeUpperCase);
 forEach(["budi", "dewi", "santoso"], greetAll);

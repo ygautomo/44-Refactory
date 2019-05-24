@@ -24,7 +24,7 @@ const start = 1, end = 30;
 for (i = start; i <= end; i++) {
 	console.log(`${i} =  ${i % 2 === 0 ? "Even number" : "Odd number"}`);
 	console.log(i);
-};
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

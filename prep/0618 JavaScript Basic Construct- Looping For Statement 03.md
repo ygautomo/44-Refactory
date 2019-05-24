@@ -31,14 +31,14 @@ for (el in myHobby.reverse()) {
 	console.log("I love", myHobby[el]);
 	console.log("I love " +myHobby[el]);
 	console.log("I love ".concat(myHobby[el]));
-};
+}
 
 // Loop 03
 for (el of myHobby.reverse()) {
 	console.log("I love", el);
 	console.log("I love " +el);
 	console.log("I love ".concat(el));	
-};
+}
 
 // Loop 04
 for (el = myHobby.length-1; el >=0; el--) {
@@ -46,7 +46,7 @@ for (el = myHobby.length-1; el >=0; el--) {
 	console.log("I love", myHobby[el]);
 	console.log("I love " +myHobby[el]);
 	console.log("I love ".concat(myHobby[el]));
-};
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

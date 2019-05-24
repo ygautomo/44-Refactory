@@ -20,7 +20,7 @@ I have 9 clothes
 
 **Solution**
 ```JavaScript
-let i = 1
+let i = 1;
 do {
 	console.log(`I have ${i} clothes`);
 	console.log("I have", i, "clothes");

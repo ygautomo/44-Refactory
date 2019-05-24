@@ -19,9 +19,9 @@ function greaterThan(myScore) {
 		strReturn = "50 or over";
 	} else {
 		strReturn = "under 49";
-	};
+	}
 	return strReturn;
-};
+}
  
 console.log(`${greaterThan(myScore)}`);
 console.log(greaterThan(myScore));

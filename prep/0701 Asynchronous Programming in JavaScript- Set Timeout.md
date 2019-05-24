@@ -9,7 +9,7 @@ s
 ```JavaScript
 function printMessage() {
 	console.log("Refactory Coding Bootcamp");
-};
+}
 
 window.setTimeout(printMessage, 5000);
 ```

@@ -7,17 +7,17 @@
 
 **Solution**
 ```JavaScript
-const first = ['Your', 'time', 'is', 'limited,']
-const second = ['so', 'dont', 'waste', 'it']
-const third = ['living', 'on', 'someone', 'else', 'life']
+const first = ['Your', 'time', 'is', 'limited,'];
+const second = ['so', 'dont', 'waste', 'it'];
+const third = ['living', 'on', 'someone', 'else', 'life'];
 
 function funcSentence(firstString) {
 	return function(secondString) {
 		return function(thirdString) {
 			return (firstString.join(" ") + " " + secondString.join(" ") + " " + thirdString.join(" "));
-			};
 		};
 	};
+}
 
 let sentence = funcSentence(first)(second)(third);
 // let sentence = first.join(" ") + " " + second.join(" ") + " " + third.join(" ");

@@ -18,7 +18,7 @@ function Person01(name, age) {
 	this.age = age || 0;
 	this.sayName = function() {	return this.name; };
 	this.sayAge = function() { return this.age; };
-};
+}
 
 let person0101 = new Person01("Steve Jobs", 40);
 person0101;				// return Person01 {name: "Steve Jobs", age: 40}
@@ -42,7 +42,7 @@ person0101.sayAge() === person0102.sayAge()		// return false
 function Person02(name, age) {
 	this.name = name || "Unknown";
 	this.age = age || 0;
-};
+}
 
 let person0201 = new Person02("Steve Jobs", 40);
 person0201;				// return Person01 {name: "Steve Jobs", age: 40}
@@ -81,6 +81,6 @@ The latter will use more memory, because the application will have to hold multi
 Usually, the performance for the first case is negligible for real world applications, due to processor efficiency, engine optimizations and so on (I don’t have any data to prove this with me, but it’s easy to Google it).
 
 That’s why you by default will always prefer attaching method to the constructor `prototype` property, unless you have a very good reason not to do so.
-![Medium](https://medium.freecodecamp.org/a-guide-to-prototype-based-class-inheritance-in-javascript-84953db26df0)
+[Medium](https://medium.freecodecamp.org/a-guide-to-prototype-based-class-inheritance-in-javascript-84953db26df0)
 
 > Written with [StackEdit](https://stackedit.io/).

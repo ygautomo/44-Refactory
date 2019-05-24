@@ -14,16 +14,16 @@ class Hero01 {
 	constructor(name, type) {
 		this.name = name || "No Name";
 		this.type = type || "No Type";
-		this.getName = function () { return this.name };
-		this.getType = function () { return this.type };
+		this.getName = function () { return this.name; };
+		this.getType = function () { return this.type; };
 		this.setName = function (value) { this.name = value;
 										 return "Object name has changed"; 
 									};
 		this.setType = function (value) { this.type = value;
 										 return "Object type has changed";
 									};
-	};
-};
+	}
+}
 
 let hero01 = new Hero01("Naruto", "Ninja");
 hero01;				// return Hero01 {name: "Naruto", type: "Ninja"}
@@ -42,17 +42,17 @@ Hero02 = class {
 	constructor(name, type) {
 		this.name = name || "No Name";
 		this.type = type || "No Type";
-	};
+	}
 	
-	getName() { return this.name; };
-	getType() { return this.type; };
+	getName() { return this.name; }
+	getType() { return this.type; }
 	setName(value) { this.name = value;
 					return "Object name has changed";
-	};
+	}
 	setType(value) { this.type = value;
 					 return "Object type has changed";
-	};
-};
+	}
+}
 
 let hero02 = new Hero02("Naruto", "Ninja");
 hero02;				// return Hero02 {name: "Naruto", type: "Ninja"}
@@ -71,13 +71,13 @@ class Hero03 {
 	constructor(name, type) {
 		this._name = name || "No Name";
 		this._type = type || "No Type";
-	};
+	}
 	
-	get name() { return this._name; };
-	get type() { return this._type; };
-	set name(value) { this._name = value; };
-	set type(value) { this._type = value; };
-};
+	get name() { return this._name; }
+	get type() { return this._type; }
+	set name(value) { this._name = value; }
+	set type(value) { this._type = value; }
+}
 
 let hero03 = new Hero03("Naruto", "Ninja");
 hero03;				// return Hero03 {_name: "Naruto", _type: "Ninja"}
@@ -118,10 +118,10 @@ hero04;				// return Hero04 {_name: "Gatot Kaca", _type: "Wayang"}
 Hero05 = {
 	_name: "Object Name",
 	_type: "Object Type",
-	getName: function() { return this._name },
-	getType: function() { return this._type },
-	setName: function(value) { this._name = value },
-	setType: function(value) { this._type = value }
+	getName: function() { return this._name; },
+	getType: function() { return this._type; },
+	setName: function(value) { this._name = value; },
+	setType: function(value) { this._type = value; }
 };
 
 let hero05 = Hero05;

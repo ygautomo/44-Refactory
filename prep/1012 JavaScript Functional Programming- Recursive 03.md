@@ -20,7 +20,8 @@ function is_even_recursion(number) {
 		number = number - 2;
 		return is_even_recursion(number);
 	}
-};
+}
+
 console.log(is_even_recursion(120));
 console.log(is_even_recursion(47));
 ```

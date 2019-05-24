@@ -13,7 +13,7 @@ function lastPromise (seconds){
 			resolve("and Success!");
 		}, seconds);
 	});
-};
+}
 
 lastPromise(3000).then((successMessage) => {
 	console.log("Work! " + successMessage);

@@ -30,7 +30,7 @@ const start = 10, end = 20;
 for (i = start; i <= end; i++) {
 	console.log(`${i}`);
 	console.log(i);
-};
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

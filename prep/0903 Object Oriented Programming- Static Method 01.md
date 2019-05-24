@@ -10,8 +10,8 @@
 class Circle {
 	static phi() {
 		return 3.14;
-	};
-};
+	}
+}
 
 console.log(Circle.phi());
 ```

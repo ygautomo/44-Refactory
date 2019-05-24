@@ -9,11 +9,11 @@
 
 **Solution**
 ```JavaScript
-varlet age = 40;
+let age = 40;
 
 function allowedAge(age) {
 	return (age >= 10 && age <= 20);
-};
+}
 
 console.log(`${allowedAge(age)}`);
 console.log(allowedAge(age));

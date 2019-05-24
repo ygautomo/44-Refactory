@@ -16,7 +16,7 @@ function printString(arrStrings, charLength) {
 			return element.length === charLength;
 		});
 	return arrResults;
-};
+}
 
 arrStrings = ['Denny', 'Dewi', 'Santoso', 'Bayu'];
 console.log(printString(arrStrings, 4));

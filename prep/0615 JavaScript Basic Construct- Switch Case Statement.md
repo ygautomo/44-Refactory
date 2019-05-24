@@ -28,7 +28,7 @@ switch(myValue) {
 		break;
 	default:
 		console.log("wrong number");
-};
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

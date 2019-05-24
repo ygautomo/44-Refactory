@@ -12,12 +12,12 @@
 // 01. Block-scoped variables (and constants) with `let` keyword
 for (let i = 0; i < myArray.length; i++) {
 	// Do something inside the block
-};
- 
+}
+
 if (x > 0 && x != y) {
 	// We reuse "i"
 	let i = x * y;
-};
+}
 
 // 02. New `const` keyword
 const PI = 3.141593;
@@ -33,18 +33,17 @@ let myArray = [1, 2, 3];
 let newArray = [...myArray, 4, 5, 6];
  
 console.log(newArray);		// return 1, 2, 3, 4, 5, 6
-}
 
 // 05. Default Values for Parameters & New Rest Parameters
 // Default Values for Parameters
 function f (x, y = 7, z = 42) {
 	return x + y + z;
-};
+}
 
 // Rest Parameters
 function f (x, y, ...a) {
 	return (x + y) * a.length;
-};
+}
 f(1, 2, "hello", true, 7) === 9;
 f(1) === 50;
 
@@ -54,7 +53,7 @@ let sum = 0;
  
 for (let i of myArray) {
 	sum += i;
-};
+}
  
 console.log(sum);		// return 15 (= 1 + 2 + 3 + 4 + 5) 
 
@@ -77,7 +76,7 @@ class Polygon {
 	sayName() { //class method
 		console.log('Hi, I am a', this.name + '.');
 	};
-};
+}
  
 let myPolygon = new Polygon(5, 6);
  
@@ -87,11 +86,11 @@ console.log(myPolygon.sayName());   // return "Hi, I am a Polygon."
 // functions.js
 function cube(a) {
 	return a * a * a;
-	};
+}
  
 function cubeRoot(a) {
 	return Math.cbrt(a);
-};
+}
 
 export { cube, cubeRoot };
 // or: export { cube as cb, cubeRoot as cr }
@@ -108,10 +107,10 @@ function isPrime(element, index, array) {
 	while (start <= Math.sqrt(element)) {
 		if (element % start++ < 1) {
 			return false;
-		};
-	};
+		}
+	}
 	return element > 1;
-};
+}
  
 console.log([4, 6, 8, 12].find(isPrime));	// return undefined, not found
 console.log([4, 5, 8, 12].find(isPrime));	// return 5

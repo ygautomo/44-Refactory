@@ -16,7 +16,7 @@ Line5
 
 **Solution**
 ```JavaScript
-let i = 1
+let i = 1;
 do {
 	console.log(`line ${i}`);
 	console.log("line", i);

@@ -11,23 +11,23 @@
 class Foo {
 	constructor(text) {
 		this._text = text;
-	};
+	}
 	doSomething() { 
 		throw new Error('You have to implement the method doSomething!');
-	};
-};
+	}
+}
 
 class subFoo extends Foo {
 	constructor(text) {
 		super(text);
-	};
+	}
 	genericMethod() { 
 		console.log('running from super class. Text: ' + this._text);
-	};
+	}
 	doSomething() { 
 		console.log('Method implemented successfully!');
-	};
-};
+	}
+}
 
 let myObj = new subFoo("Howdy");
 

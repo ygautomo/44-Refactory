@@ -16,7 +16,7 @@ if (myAge >= 17) {
 	console.log("Old enough");
 } else {
 	console.log("Too young");
-};
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

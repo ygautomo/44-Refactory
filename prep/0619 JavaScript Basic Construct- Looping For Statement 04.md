@@ -23,7 +23,7 @@ let go = 20, stop = 10;
 for (i = go; i >=stop; i--) {
 	console.log(`${i}`);
 	console.log(i);
-};
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

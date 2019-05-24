@@ -21,12 +21,12 @@
 
 **Solution**
 ```JavaScript
-let i = 10
+let i = 10;
 while (i <= 100) {
 	console.log(`${i}`);
 	console.log(i);
 	i += 10;
-};
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

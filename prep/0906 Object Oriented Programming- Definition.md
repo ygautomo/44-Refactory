@@ -11,9 +11,19 @@ There are several ways to implement Object Oriented Programming in JavaScript. F
  1. With object literal
 
    - Literals are shorter way to define objects and arrays in JavaScript. To create an empty object using you can do:
-`let o = {};`
-instead of the "normal" way:
-`let o = new Object();`
+	```
+	let o = {};
+	instead of the "normal" way:
+	let o = new Object();
+
+	let apple = {
+		type: "macintosh",
+		color: "red",
+		getInfo : function () {
+			return this.color + ' ' + this.type + ' apple';
+		}
+	};
+   ```
 
  2. With Prototype Based Programming or using Function
 
@@ -32,20 +42,30 @@ instead of the "normal" way:
 
  - You could define a normal JavaScript class function and then create an object by using the `new` keyword, as seen in the following example.
 	```
+	class Apple {
+		constructor (type, color) {
+			this.type = type;
+			this.color = color;
+			this.getInfo = function () {
+				return this.color + ' ' + this.type + ' apple';
+			}
+		}
+	}
+
 	class Polygon {
 		constructor(height, width) {
 			this.height = height;
 			this.width = width;
-		};
+		}
 
 		get area() {
 			return this.calcArea();
-		};
+		}
 
 		calcArea() {
 			return this.height * this.width;
-		};
-	};
+		}
+	}
 	```
  
 This OOP method is useful when we want to develop a program which could create abstarction and encapsulate the problem.

@@ -8,13 +8,13 @@
 **Solution**
 ```JavaScript
 class TemperatureConverter {
-	static fahrenheitToCelcius(value) {	return ((value - 32) * 5 / 9);	};
-	static celciusToFahrenheit(value) {	return ((value * 9) / 5 + 32);	};
-	static celciusToKelvin(value) {	return (value + 273.15); };
-	static kelvinToCelcius(value) {	return (value - 273.15); };
-	static fahrenheitToKelvin(value) { return (((value - 32) / 1.8 ) + 273.15); };
-	static kelvinToFahrenheit(value) { return (((value - 273.15) * 1.8) + 32); };
-};
+	static fahrenheitToCelcius(value) {	return ((value - 32) * 5 / 9);	}
+	static celciusToFahrenheit(value) {	return ((value * 9) / 5 + 32);	}
+	static celciusToKelvin(value) {	return (value + 273.15); }
+	static kelvinToCelcius(value) {	return (value - 273.15); }
+	static fahrenheitToKelvin(value) { return (((value - 32) / 1.8 ) + 273.15); }
+	static kelvinToFahrenheit(value) { return (((value - 273.15) * 1.8) + 32); }
+}
 
 console.log(TemperatureConverter.fahrenheitToCelcius(50));
 console.log(TemperatureConverter.celciusToFahrenheit(10));

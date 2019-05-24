@@ -13,9 +13,9 @@
 class GameConsole01 {
 	constructor(name) {
 		this.name = name || "No Name";
-		this.play = function () { return this.name };
-	};
-};
+		this.play = function () { return this.name; };
+	}
+}
 
 let gameConsole01 = new GameConsole01('Nintendo Switch');
 console.log(gameConsole01.play());
@@ -26,9 +26,9 @@ console.log(gameConsole01.play());
 class GameConsole02 {
 	constructor(name) {
 		this.name = name || "No Name";
-	};
+	}
 
-	play() { return this.name };
+	play() { return this.name; }
 };
 
 let gameConsole02 = new GameConsole02('Nintendo Switch');
@@ -39,7 +39,7 @@ console.log(gameConsole02.play());
 let GameConsole03 = class {
 	constructor(name) {
 		this.name = name;
-	};
+	}
 };
 
 // class constructor 03 and define public method

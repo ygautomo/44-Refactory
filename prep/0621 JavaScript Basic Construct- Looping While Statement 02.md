@@ -17,12 +17,12 @@
 
 **Solution**
 ```JavaScript
-let i = 5
+let i = 5;
 while (i >= 0) {
 	console.log(`${i}`);
 	console.log(i);
 	i--;
-};
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).

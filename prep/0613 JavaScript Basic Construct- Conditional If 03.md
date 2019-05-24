@@ -30,9 +30,9 @@ function myGrade(score) {
 		strGrade = "D";
 	} else {
 		strGrade = "E";
-	};
+	}
 	return strGrade;
-};
+}
  
 console.log(`I got ${myGrade(99)} grade`); 		// return "A"
 console.log(`I got ${myGrade(80)} grade`); 		// return "A"
