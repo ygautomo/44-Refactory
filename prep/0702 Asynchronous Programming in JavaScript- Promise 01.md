@@ -19,7 +19,11 @@ wait(2000)
 .then(message => {console.log(message)});
 ```
 
-Reference [Codingame](https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/your-first-code-with-promises)
+Reference
+[Codingame](https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/your-first-code-with-promises)
+[JavaScript](https://javascript.info/async-await)
+[Medium](https://medium.com/front-end-weekly/callbacks-promises-and-async-await-ad4756e01d90)
+
 ```
 let promise = new Promise(function(resolve, reject) {
 	setTimeout(function() {
