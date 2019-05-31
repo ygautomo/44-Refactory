@@ -33,5 +33,6 @@ test('div 1 * 2 to equal 0.5', () => {
 
 Reference
 [Repl](https://repl.it/repls/UnluckyHardChords)
+[Jestjs(https://jestjs.io/docs/en/getting-started)
 
 > Written with [StackEdit](https://stackedit.io/).

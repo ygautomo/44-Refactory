@@ -29,6 +29,7 @@ setTimeout(parallel, 5000);
 
 Reference
 [Codingame](https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/your-first-code-with-promises)
+[Hongkiat](https://www.hongkiat.com/blog/synchronous-asynchronous-javascript/)
 [JavaScript](https://javascript.info/async-await)
 [Medium](https://medium.com/front-end-weekly/callbacks-promises-and-async-await-ad4756e01d90)
 
